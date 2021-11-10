@@ -1,0 +1,136 @@
+body{
+    display: grid;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    top:-2px;
+    background-color: aquamarine;
+    width: 414px;
+    height: 800px;
+    background: #060D26;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    
+}
+
+.city{
+    position: relative;
+    top: 110px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.lagos{
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+}
+
+.month{
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+}
+
+.moon{
+    position: relative;
+    top: 140px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.degree{
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: 500;
+font-size: 70px;
+line-height: 92px;
+
+}
+
+.properties{
+    position: relative;
+    top: 160px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.day{
+    position: relative;
+    top: 220px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 26px;
+
+}
+
+.aboba{
+    position: relative;
+    top: 280px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+   
+
+}
+
+.weather{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #A7B4E0;
+    justify-content: center;
+    align-items: center;
+border-radius: 30px;
+height: 70px;
+width: 140px;
+
+}
+
+.time{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.today{
+
+    position: relative;
+    right: 45px;
+
+}
+.viev{
+    position: relative;
+    left: 35px;
+}
+input{
+    position: relative;
+    top:60px;
+    width: 305px;
+height: 44px;
+left: 54px;
+top: 70px;
+border-radius: 50px;
+padding: 8px;
+}
